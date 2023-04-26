@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blocks</title>
+    <style>
+        body {
+            background-color: #232323;
+        }
+
+        .block {
+            width: 250px;
+            height: 100px;
+            background-color: rgba(0, 150, 150, 0.5);
+            text-align: center;
+            line-height: 100px;
+            margin: 5px;
+            float: left;
+            font-family: "Ubuntu Medium", sans-serif;
+            font-weight: 36;
+            color: azure;
+            border: 1px solid black;
+            border-radius: 20px;
+            box-sizing: border-box;
+        }
+
+        .row {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    {% for block_list in nested_list %}
+    <div class="row">
+        {% for block in block_list %}
+        {% if block == True %}
+        <div class="block" style="background-color: green;">{{ block }}</div>
+        {% elif block == False %}
+        <div class="block" style="background-color: red;">{{ block }}</div>
+        {% elif block == "Команды / текст" or block == "Значения" %}
+        <div class="block" style="background-color: darkorange;">{{ block }}</div>
+        {% else %}
+        <div class="block">{{ block }}</div>
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+</body>
+</html>
