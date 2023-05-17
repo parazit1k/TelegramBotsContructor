@@ -1,5 +1,5 @@
 # TelegramBotsContructor
 
-## [multithreading.py](multitreading.py)
+## [multithreading.py](Hosting/multitreading.py)
 
-## [BotToAdd](BotToAdd.py)
+## [BotToAdd](OneFileConstructor/BotToAdd.py)

@@ -1,0 +1,15 @@
+{
+  "token": "5870811802:AAE4EclZ9h_G1JvZQTmSQxe9xRajtK1LRNw",
+  "start": "TEST BOT TWO",
+  "help": "TEST BOT TWO",
+  "chatgpt": false,
+  "commands": {
+    "text": {
+      "type": "message",
+      "text": "i love yulia"
+    }
+  },
+  "text": {
+
+  }
+}
