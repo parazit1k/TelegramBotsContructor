@@ -3,7 +3,7 @@ import json
 import telebot
 from telebot.types import *
 
-bot = telebot.TeleBot("5870811802:AAE4EclZ9h_G1JvZQTmSQxe9xRajtK1LRNw")
+bot = telebot.TeleBot("")
 print(f"https://t.me/{bot.get_me().username}")
 tokens = {
 
