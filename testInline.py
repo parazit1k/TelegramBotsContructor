@@ -3,7 +3,7 @@ from telebot.callback_data import CallbackData
 from telebot.storage import StateMemoryStorage
 from telebot.types import *
 
-bot = telebot.TeleBot("1848227908:AAG9vZH7wKHtBQcGgNJ8wFqKWD5NiUKk7DA",
+bot = telebot.TeleBot("",
                       state_storage=StateMemoryStorage())
 
 test_callback = CallbackData("type", "content", prefix="test")
